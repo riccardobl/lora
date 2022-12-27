@@ -131,6 +131,7 @@ class DreamBoothTiDataset(Dataset):
         size=512,
         center_crop=False,
         color_jitter=False,
+        h_flip=False,
         resize=False,
     ):
         self.size = size
